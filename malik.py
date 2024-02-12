@@ -40,7 +40,7 @@ if __name__ == "__main__":
             for an in haha:
                 file.write(str(an)+"\n")
             file.close()
-            print(f"Output berhasil disimpan dengan mana {str(sys.argv[3])}\n")
+            print(f"Output berhasil disimpan dengan nama {str(sys.argv[3])}\n")
         else:
             pass
     else:
